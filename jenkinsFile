@@ -16,10 +16,10 @@ pipeline {
          stage('Compile Java') {
             steps {
                 script {
-                    bat "javac HelloJava.java" 
+                    bat "javac HolaMundo.java" 
                 }
                 script {
-                    bat "java HelloJava" 
+                    bat "java HolaMundo" 
                 }
             }
         }
